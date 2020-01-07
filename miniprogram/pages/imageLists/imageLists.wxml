@@ -1,0 +1,8 @@
+<view>
+  <view>
+    <lists animation="{{animation}}" isRemove="{{isRemove}}" typeTree="{{tasks}}" bind:removeImage="removeImage"></lists>
+  </view>
+  <view wx:if="{{tasks.length>0}}" class="administration" bindtap="removeShow">
+    {{administration}}
+  </view>
+</view>

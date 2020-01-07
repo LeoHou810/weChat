@@ -1,0 +1,25 @@
+<view class="page">
+  <view>
+    <van-cell-group>
+      <van-field label="描述:" value="{{ value }}" placeholder="描述" border="{{ false }}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class="select">
+    <view style="float:left;margin: 0 0 0 30rpx;">类别：</view>
+    <view class="selectionCategory">
+      <span wx:for="{{columns}}" wx:key="{{index}}" data-id="{{index}}" bindtap="selectOnChange" class="{{typeIndex==index?'active':''}}">{{item}}</span>
+    </view>
+  </view>
+  <view class="selectImage">请选择:</view>
+  <view class="upload">
+    <i wx:if="{{imageUrl}}" class="icon" bindtap="remove">X</i>
+    <view style="line-height:200rpx">
+      <image wx:if="{{imageUrl}}" bindtap="bigShow" class="imgUrl" src="{{imageUrl}}"></image>
+      <van-icon wx:if="{{!imageUrl}}" name="plus" style="padding:30rpx" bindtap="upload" />
+    </view>
+  </view>
+  <view class="submit" bindtap="onSubmit">
+    上传
+  </view>
+  <van-notify id="van-notify" />
+</view>

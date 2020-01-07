@@ -9,6 +9,7 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -17,12 +18,11 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"nodeModules": true
+		}
 	},
 	"appid": "wx90bd5495196ea245",
 	"projectname": "miniprogram-1",
-	"libVersion": "2.8.1",
+	"libVersion": "2.9.4",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -41,8 +41,12 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
-			"current": 2,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -58,9 +62,52 @@
 					"scene": null
 				},
 				{
+					"id": 2,
+					"name": "pages/imageLists/imageLists",
+					"pathName": "pages/imageLists/imageLists",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "pages/todo/todo",
-					"pathName": "pages/todo/todo",
+					"name": "pages/addTodo/addTodo",
+					"pathName": "pages/addTodo/addTodo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homePage/homePage",
+					"pathName": "pages/homePage/homePage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/lists/lists",
+					"pathName": "components/lists/lists",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/todoInfo/todoInfo",
+					"pathName": "pages/todoInfo/todoInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/uploadPictures/uploadPictures",
+					"pathName": "pages/uploadPictures/uploadPictures",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/photoDetail/photoDetail",
+					"pathName": "pages/photoDetail/photoDetail",
+					"query": "",
 					"scene": null
 				}
 			]

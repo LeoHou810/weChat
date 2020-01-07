@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "lists": "../../components/lists/lists"
+  }
+}

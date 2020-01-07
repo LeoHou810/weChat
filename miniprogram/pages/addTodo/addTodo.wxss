@@ -1,0 +1,12 @@
+/* pages/addTodo/addTodo.wxss */
+.addImage{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60rpx;
+  line-height: 100rpx;
+  border-radius: 50%;
+  color: #fff;
+  background-color: red;
+}

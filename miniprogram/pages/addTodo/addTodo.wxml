@@ -1,0 +1,8 @@
+<form bindsubmit='onSubmit'>
+  <input name="title">
+  </input>
+  <button form-type="submit">提交</button>
+</form>
+<image wx:if="{{urlMessgae}}" src="{{urlMessgae}}"></image>
+<view style="text-align: center">上传图片</view>
+<view bindtap="uploadFile" class="addImage">+</view>

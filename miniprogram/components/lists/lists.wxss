@@ -1,0 +1,70 @@
+/* components/lists.wxss */
+
+.right {
+  height: 100%;
+  overflow: hidden;
+  width: auto;
+  background: #fff;
+}
+
+.right text {
+  font-size: 30rpx;
+}
+
+.typeTree {
+  padding: 20rpx 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.typeTree .item {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.typeTree .title {
+  padding: 10rpx 0;
+  display: block;
+  color: #333;
+}
+
+.typeTree image {
+  width: 200rpx;
+  margin: 0 auto;
+}
+
+.typeTree .brand image {
+  height: 200rpx;
+}
+
+.typeTree .category image {
+  height: 85rpx;
+}
+
+.typeTree .category {
+  padding-bottom: 10rpx;
+}
+
+.item text {
+  padding-bottom: 10rpx;
+  display: block;
+}
+
+.remove {
+  z-index:999;
+  position: absolute;
+  top: -16rpx;
+  right: -16rpx;
+  background-color: #969799;
+  color: #fff;
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 30rpx;
+  display: block;
+  border-radius: 50%;
+}

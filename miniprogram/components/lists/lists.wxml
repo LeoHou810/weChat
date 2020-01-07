@@ -1,0 +1,14 @@
+<scroll-view scroll-y="true" class="right">
+  <view class="typeTree">
+    <view wx:if="{{typeTree.length>0}}" class="brand" wx:key="typeId" wx:for="{{typeTree}}" wx:for-item="data">
+      <view wx:key="data._id" class="item">
+        <i wx:if="{{isRemove==1}}" catchtap="removeImage" class="remove" data-reply-Type="{{data._id}}">X</i>
+        <image  animation="{{isRemove==1?animation:''}}" src="{{data.image}}"  bindtap="bigShow" data-imgUrl="{{data.image}}"></image>
+        <text>{{data.title}}</text>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{typeTree.length==0}}">
+    <image style="width:100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575449760787&di=4c0f5c2275f64ccd1f5dd441ab0396a2&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1095310825%2C1528244349%26fm%3D214%26gp%3D0.jpg"></image>
+  </view>
+</scroll-view>

@@ -1,30 +1,50 @@
 {
   "pages": [
-    "pages/todo/todo",
-    "pages/homePage/homePage",
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/openId/openId",
+    "pages/imageLists/imageLists",
+    "pages/todoInfo/todoInfo",
+    "pages/addTodo/addTodo",
+    "pages/photoDetail/photoDetail",
+    "pages/uploadPictures/uploadPictures",
+    "components/lists/lists"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "云相册",
     "navigationBarTextStyle": "black"
   },
-  
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#d4237a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/imageLists/imageLists",
+        "text": "全部列表"
+      },
+      {
+        "pagePath": "pages/uploadPictures/uploadPictures",
+        "text": "上传图片"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs",
+    "van-field": "vant-weapp/field",
+    "van-icon": "vant-weapp/icon",
+    "van-notify": "@vant/weapp/notify",
+    "van-picker": "@vant/weapp/picker"
+  }
 }
-

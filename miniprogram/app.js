@@ -18,24 +18,3 @@ App({
     this.globalData = {}
   }
 })
-
-// "tabBar":{
-//   "color":"#000",
-//   "selectedColor":"#d4237a",
-//   "list":[{
-//     "pagePath":"pages/homePage/homePage",
-//     "text":"我们的故事",
-//     "iconPath":"./images/preview.png",
-//     "selectedIconPath":"./images/previewHover.png"
-//   },{
-//     "pagePath":"pages/index/index",
-//     "text":"我的",
-//     "iconPath":"./images/my.png",
-//     "selectedIconPath":"./images/myHover.png"
-//   },{
-//     "pagePath":"pages/index/index",
-//     "text":"我的",
-//     "iconPath":"./images/my.png",
-//     "selectedIconPath":"./images/myHover.png"
-//   }]
-// },

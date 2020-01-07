@@ -1,0 +1,64 @@
+
+ page {
+  background-color: #fff;
+} 
+.selectImage{
+  margin-top: 100rpx;
+  margin-left: 30rpx;
+}
+.upload {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx auto;
+  text-align: center;
+  font-size: 48rpx;
+  color: #969799;
+  border: 1rpx dashed #ccc;
+  border-radius: 8rpx;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: -16rpx;
+  right: -16rpx;
+  background-color: #969799;
+  color: #fff;
+  width: 36rpx;
+  height: 36rpx;
+  font-size: 30rpx;
+  display: block;
+  border-radius: 50%;
+}
+.imgUrl{
+  width: 100%;
+  height: 200rpx;
+}
+.select{
+  margin-top: 40rpx;
+}
+.submit{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #07c160;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-weight: 700;
+  font-size: 40rpx;
+  text-align: center;
+}
+span{
+  padding: 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin: 0 20rpx;
+  border: 1rpx dashed #ccc;
+}
+
+.active{
+  background-color: #1989fa;
+}
+.selectionCategory{
+  padding-left: 30rpx;
+}

@@ -1,0 +1,17 @@
+page {
+  background-color: #fff;
+}
+.administration{
+  position: fixed;
+  right: 10rpx;
+  bottom: 80rpx;
+  width: 50rpx;
+  height: 50rpx;
+  padding: 30rpx;
+  background-color: red;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 25rpx;
+  border-radius: 50%;
+  color: #fff;
+}

@@ -1,0 +1,2 @@
+<view>{{dataValue.title}}</view>
+<image wx:if="{{dataValue.image}}" src="{{dataValue.image}}"></image>
