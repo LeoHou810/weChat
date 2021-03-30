@@ -18,9 +18,14 @@ Component({
     },
     bigShow(event) {
       getApp().globalData.isOnshow = false
+      const {typeTree}=this.data
+      let newUrls=[]
+      typeTree.map((item)=>{
+        newUrls.push(item.image)
+      })
       wx.previewImage({
         current: event.currentTarget.dataset.imgurl, // 当前显示图片的http链接
-        urls: [event.currentTarget.dataset.imgurl] // 需要预览的图片http链接列表
+        urls: newUrls
       })
     },
     onLoad: function() {

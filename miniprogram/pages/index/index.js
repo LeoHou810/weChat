@@ -67,9 +67,14 @@ Page({
     // .get().then(console.log)
   },
   bigShow(event) {
+    const {banners}=this.data
+    let newUrls=[]
+    banners.map((item)=>{
+      newUrls.push(item.image)
+    })
     wx.previewImage({
       current: event.currentTarget.dataset.imgurl, // 当前显示图片的http链接
-      urls: [event.currentTarget.dataset.imgurl] // 需要预览的图片http链接列表
+      urls: newUrls   //图片数组
     })
   },
   tabsClick(e) {

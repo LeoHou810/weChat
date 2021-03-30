@@ -10,6 +10,7 @@ Page({
     imageUrl: '',
     columns: ['风景', '人物', '动物'],
     typeIndex: '1',
+    webUrl:''
   },
   onLoad: function(options) {
     getApp().globalData.isOnshow = true
@@ -64,6 +65,8 @@ Page({
   },
   // 表单提交
   onSubmit() {
+    console.log(1111)
+    this.data.webUrl ="http://ce6.test.icloudidc.net/CSADSW/nqlP99q25ItsBRaqhtmYew/"
     let that = this
     if (!this.data.value) {
       Notify({
